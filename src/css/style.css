@@ -1,0 +1,70 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+
+html {
+    background-color: initial;
+    overflow-y: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FA5586;
+    min-height: 100vh;
+}
+
+.box {
+    min-width: 70vw
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #a1a1a1;
+}
+
+.ctn {
+    padding: 25px;
+}
+
+.button {
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #FA5586 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: #aa113f !important;
+}
+
+.credits {
+    margin-top: 10px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.input, .textarea {
+    border-color: #FA5586
+}

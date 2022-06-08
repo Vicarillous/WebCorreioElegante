@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="src/css/style.css" />
+        <title>Document</title>
+    </head>
+    <body class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+        <div
+            class="is-flex is-justify-content-center is-align-items-center"
+        >
+            <div class="box">
+                <div class="columns ctn">
+                    <div class="column is-half">
+                        <h1 class="title is-size-1">Correio Elegante</h1>
+                        <img src="src/assets/logo.svg" alt="Logo" />
+                        <h2 class="subtitle is-size-2">Surpreenda seu amor</h2>
+                        <p class="text">Envie uma mensagem para a pessoa que você ama.</p>
+                    </div>
+                    <div class="column is-half">
+                        <form action="http://192.168.2.106:3030/send" method="post">
+                            <div class="field">
+                                <label class="label"
+                                    >Você gostaria de se identificar?</label
+                                >
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        name="nome"
+                                        type="text"
+                                        placeholder="Digite seu nome ou apelido"
+                                    />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        name="email"
+                                        type="text"
+                                        placeholder="Digite o email dele ou dela"
+                                    />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Surpreenda</label>
+                                <div class="control">
+                                    <textarea
+                                        class="textarea"
+                                        name="mensagem"
+                                        placeholder="Solte o verbo para seu/sua amado(a)"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <button class="button is-link">Enviar correio</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="credits">
+            Feito com ❤️ por Vica<br>
+            Correio Elegante - IFMS. 2022
+        </div>
+    </body>
+</html>
